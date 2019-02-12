@@ -3,15 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TareaMatriz;
+package tareamatriz;
 import java.util.Scanner;
 import java.util.Random;
 
 /**
  *
- * Kevin Oswaldo Loarca Fuentes [0901-17-11537]
- * 04-02-2019
- * Una matriz con datos random que calcula el sueldo liquido
+ * @author alumno
  */
 public class TAREAMATRIZ {
 
@@ -19,6 +17,8 @@ public class TAREAMATRIZ {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // TODO code application logic here
+    
         //variables ramdom
         Random Naleatorio= new Random();
         int aleatorioS=1000+ Naleatorio.nextInt(2000);
@@ -52,11 +52,6 @@ public class TAREAMATRIZ {
         }
         
     }
-
-    private static class NombresAleatorios {
-
-        public NombresAleatorios() {
-        }
-    }
     }
     
+
